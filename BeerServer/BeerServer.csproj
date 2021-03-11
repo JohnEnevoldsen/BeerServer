@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BeerLib">
+      <HintPath>..\..\BeerLib\BeerLib\bin\Debug\netcoreapp3.1\BeerLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
